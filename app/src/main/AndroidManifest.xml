@@ -4,12 +4,38 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.WEDIETApp">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar">
+        <activity
+            android:name=".CrossTrainingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LowerBodyBurnoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".YogaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutMenuActivity"
+            android:exported="false" />
+        <activity android:name=".MenuActivity" />
+        <activity
+            android:name=".SetGoalActivity"
+            android:exported="true"
+            android:label="Set your weekly goal" />
+        <activity
+            android:name=".UserInfoActivity"
+            android:exported="true"
+            android:label="User information" /> <!-- <activity android:name=".MenuActivity" /> -->
+        <activity android:name=".LogInActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="Register Form"
+            android:parentActivityName=".LogInActivity" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

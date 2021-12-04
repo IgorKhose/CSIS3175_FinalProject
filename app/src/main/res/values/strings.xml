@@ -1,3 +1,78 @@
 <resources>
-    <string name="app_name">WEDIETApp</string>
+    <string name="app_name">WEDIET</string>
+    <string name="txt_hintUsername">Username / E-mail</string>
+    <string name="txt_hintPassword">Password</string>
+    <string name="btn_signIn">Sign In</string>
+    <string name="txt_signUp">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logo_description">Fitness Logo</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="gender">Gender</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="other">Other</string>
+    <string name="password">password</string>
+    <string name="submit">submit</string>
+    <string name="txtMoreInfo">Tell us more about yourself</string>
+    <string name="age">Age</string>
+    <string name="height">Height (cm)</string>
+    <string name="weight">Weight (kg)</string>
+    <string name="oftenWorkout">How often do you workout?</string>
+    <string name="rad5_7">5 - 7 days a week</string>
+    <string name="rad3_4">3 - 4 days a week</string>
+    <string name="rad1_2">1 - 2 days a week</string>
+    <string name="radHaveNotTrained">Have not trained for a while</string>
+    <string name="btnSubmitInfo">Submit information</string>
+    <string name="txtSetGoalTitle">Train at least 3 days weekly for better result</string>
+    <string name="txtWeekStarts">Week starts from: </string>
+    <string name="prompt1">Select group</string>
+    <string-array name="txtWeekGroup">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="trainingDays">Training days</string>
+    <string name="txtWeeklyGoal">Weekly goal: </string>
+    <string name="prompt2">Select group goals</string>
+    <string-array name="txtGoalsGroup">
+        <item>Lose weight</item>
+        <item>Build muscle</item>
+        <item>Keep fit</item>
+    </string-array>
+    <string name="txtEatingHabits">Eating habits: </string>
+    <string name="rad2times">2 times a day. No breakfast, highly nutritious food</string>
+    <string name="rad3times">3 times a day. Standard three meals a day</string>
+    <string name="rad6times">6 times a day.ю Three main meals and three snacks</string>
+    <string name="btnSetGoal">Set Goal</string>
+    // Image view,
+    <string name="SmallImg">Menu Thumbnails</string>
+    <string name="LargeImg">Menu Images image</string>
+    // Workout Menu Activity
+    <string name="YogaSmallImg">Menu Images image</string>
+    <string name="BurnoutSmallImg">Menu Images image</string>
+    <string name="CrossSmallImg">Menu Images image</string>
+
+    <string name="YogaBigImg">Menu Images image</string>
+    <string name="BurnoutBigImg">Menu Images image</string>
+    <string name="CrossBigImg">Menu Images image</string>
+
+    <string name="txtEssentialYoga">Essential Yoga</string>
+    <string name="txtLowerBodyBurnout">Lower Body Burnout</string>
+    <string name="txtCrossTrainingToMasterClass">Cross-Training</string>
+
+
 </resources>
